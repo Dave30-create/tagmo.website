@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Ziegler</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container {
+    max-width: 400px;
+}
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 14px 25px;
+    background: white;
+    color: #1e3c72;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.button:hover {
+    background: #f1f1f1;
+    transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>DEIN NAME</h1>
+    <a class="button" href="david.ziegler@rdf.nuernberg.de">Kontakt aufnehmen</a>
+</div>
+</body>
+</html>
